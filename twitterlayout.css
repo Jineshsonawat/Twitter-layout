@@ -1,0 +1,114 @@
+body {
+    background-color: black;
+    width: 100%;
+    margin-top: 0;
+}
+
+nav img {
+    width: 30px;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+b {
+    margin: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    width: 225px;
+    height: 45px;
+    margin: 20px;
+    margin-left: 50px;
+    border-radius: 20px;
+    background-color: rgb(142, 142, 218);
+    color: white;
+    font-weight: 1000;
+}
+
+header {
+    color: white;
+
+}
+
+.hflex {
+    display: flex;
+    justify-content: space-between;
+    border: 0.2px solid rgb(47, 51, 54);
+}
+
+.dflex {
+    border: 0.2px solid rgb(47, 51, 54);
+    border-top: 0;
+}
+
+.fflex {
+    border: 0.2px solid rgb(47, 51, 54);
+    border-left: 0ch;
+    border-right: 0ch;
+    border-bottom: 0ch;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 0.8fr 1.6fr 1.2fr;
+}
+
+header img {
+    width: 25px;
+    margin: 4px;
+}
+
+header button {
+    width: 80px;
+    height: 39px;
+    margin: 20px;
+    margin-left: 50px;
+    border-radius: 20px;
+    background-color: rgb(121, 121, 184);
+    color: white;
+    font-weight: 1000;
+}
+
+sidebar input {
+    background-color: rgb(39, 39, 39);
+    border-radius: 5rem;
+    margin-top: 0.2rem;
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+    width: 22rem;
+    height: 38px;
+    font-size: 0.9rem;
+    padding-left: 1rem;
+}
+
+.gflex {
+    background-color: rgb(39, 39, 39);
+    border: 0.2px solid rgb(47, 51, 54);
+    width: 23rem;
+    margin: 2rem;
+    margin-top: 0ch;
+    color: white;
+    /* border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+     */
+    border-radius: 2rem;
+}
+
+.line {
+    border: 0.2px solid rgb(47, 51, 54);
+    border-left: 0ch;
+    border-right: 0ch;
+    border-bottom: 0ch;
+    display: flex;
+    flex-direction: column;
+    padding-left: 1rem;
+}
